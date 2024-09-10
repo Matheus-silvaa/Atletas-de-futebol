@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAVET: ONGs no Google Maps</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="JavaScrip.js">
+    
+</head>
+<body>
+    <header>
+        <h1>FAVET</h1>
+        <p>Encontre ONGs perto de você!</p>
+    </header>
+    <main>
+        <div id="mapa"></div> <div id="pesquisa">
+            <input type="text" id="busca" placeholder="Buscar ONGs...">
+            <button onclick="pesquisar()">Buscar</button>
+        </div>
+        <div id="resultados">
+            <ul></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
